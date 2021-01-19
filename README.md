@@ -1,2 +1,2 @@
 # WordPress-Theme
-WordPress Theme from scratch. 
+WordPress Theme from scratch using PHP and Bootstrap
