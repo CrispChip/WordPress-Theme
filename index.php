@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<link rel="stylesheet" href="<?php echo 'css/bootstrap.min.css'; ?>">
+		<link rel="stylesheet" href="<?php echo 'css/style.css'; ?>">
 		<meta charset="utf-8" />
 		<title>WordPress Theme</title>
 	</head>
@@ -10,12 +11,39 @@
 			<?php include('header.php'); ?>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="col-md-2">
-						<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-							<h1>Header</h1>
-							<p>Posted on <?php echo date("Y/m/d")?></p>
+				<div class="row justify-content-md-center">
+					<div class="col-md-6 text-left">
+						<h1>Privacy infrastructure trusted by top teams</h1>
+						<p class="text-note">Transcend is the data privacy infrastructure that makes it simple to give your users control over their personal data.</p>
+						<form class="d-flex">
+						  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Your work email">
+						  <button class="btn btn-link" type="submit">Get a demo</button>
+						</form>
+						<div class="mb-5"></div>
+						<div class="row d-flex flex-wrap align-items-center justify-content-md-center">
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/indiegogo.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/opendoor.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/ethos.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/patreon.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/robinhood.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="<?php echo 'img/athletic.png'; ?>" class="img-fluid" alt="..."></a>
+							</div>
 						</div>
+						<p class="text-note">We're simplifying privacy for engineers and lawyers at brands you love.</p>
+					</div>
+					<div class="col-md-6">
+						<h1 class="text-center">Where would you like to go?</h1>
 					</div>
 				</div>
 		</div>
