@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<link rel="stylesheet" href="<?php echo 'css/bootstrap.min.css'; ?>">
-		<link rel="stylesheet" href="<?php echo 'css/style.css'; ?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo 'css/style.css'; ?>">
 		<meta charset="utf-8" />
 		<title>WordPress Theme</title>
 	</head>
@@ -13,13 +13,17 @@
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-6 text-left">
-						<h1>Privacy infrastructure trusted by top teams</h1>
+						<h1 id="title">Privacy infrastructure trusted by top teams</h1>
 						<p class="text-note">Transcend is the data privacy infrastructure that makes it simple to give your users control over their personal data.</p>
 						<form class="d-flex">
-						  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Your work email">
-						  <button class="btn btn-link" type="submit">Get a demo</button>
+							<div class="col-auto d-flex">
+								<input class="form-control me-2" type="search" placeholder="Your work email" aria-label="Your work email">
+							</div>
+							<div class="col-auto">
+								<button type="submit" class="btn btn-link">Get a demo</button>
+							</div>
 						</form>
-						<div class="mb-5"></div>
+						<div class="mb-4"></div>
 						<div class="row d-flex flex-wrap align-items-center justify-content-md-center">
 							<div class="col-md-4">
 								<a href="#"><img src="<?php echo 'img/indiegogo.png'; ?>" class="img-fluid" alt="..."></a>
@@ -43,7 +47,7 @@
 						<p class="text-note">We're simplifying privacy for engineers and lawyers at brands you love.</p>
 					</div>
 					<div class="col-md-6">
-						<h1 class="text-center">Where would you like to go?</h1>
+						<!--<img src="img/coffee.jpg" class="img-fluid" alt="...">-->
 					</div>
 				</div>
 		</div>

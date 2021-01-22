@@ -37,3 +37,13 @@ h1 {
 .text-note {
     color: rgb(148,148,148);
 }
+
+#title {
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.input {
+    height: 14px;
+    line-height: 14px;
+}
