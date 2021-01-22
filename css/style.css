@@ -1,0 +1,39 @@
+
+h1 {
+    color: rgb(42,41,47);
+}
+
+.navbar-bg {
+    background: white;
+}
+
+.navbar-text {
+    color: black;
+}
+
+.nav-item-hover:hover {
+    color: rgb(53,56,245);
+}
+
+.nav-link-custom {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.btn-link {
+    color: white;
+    background-color: rgb(53,56,245);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    color: white;
+}
+
+.text-note {
+    color: rgb(148,148,148);
+}
